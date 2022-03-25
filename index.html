@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <meta name="description" content="Smarthr - Bootstrap Admin Template">
+        <meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
+        <meta name="author" content="Dreamguys - Bootstrap Admin Template">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Pop Up Image Size Chart</title>
+        
+     
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">    
+       
+
+<style>
+    
+.modal {
+    -webkit-overflow-scrolling: touch;
+}
+.modal-footer.text-center {
+    justify-content: center;
+}
+.modal-footer.text-left {
+    justify-content: flex-start;
+}
+.modal-dialog.modal-md {
+    max-width: 600px;
+}
+.custom-modal .modal-content {
+    border: 0;
+    border-radius: 10px;
+}
+.custom-modal .modal-footer {
+    border: 0;
+}
+.custom-modal .modal-header {
+    border: 0;
+    justify-content: center;
+    padding: 30px 30px 0;
+}
+.custom-modal .modal-footer {
+    border: 0;
+    justify-content: center;
+    padding: 0 30px 30px;
+}
+.custom-modal .modal-body {
+    padding: 30px;
+}
+
+
+.custom-modal .close {
+    background:none!important;
+    color: #000;
+    font-size:61px;
+    height: 31px;
+    line-height: 2px;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: absolute;
+    top: -14px;
+    width: 84px;
+    z-index: 99;
+}
+
+.modal-backdrop.show {
+    opacity: 0.0;
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+.modal .card {
+box-shadow: unset;
+}
+
+.modal-content {
+ background:none!important;
+   
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .image img{
+max-width: 100%;
+height: auto; 
+padding-left:10px;
+ }
+
+  
+}
+
+
+
+
+
+</style>
+
+
+    </head>
+    <body>
+     
+        
+           
+            
+          
+            
+         
+            
+                <!-- Page Content -->
+                <div class="content container-fluid">               
+                    <!-- Page Header -->
+                    <div class="page-header">
+                        <div class="row align-items-center">
+        
+                            <div class="col-auto float-right ml-auto">
+                                <a href="#" class="btn add-btn" data-toggle="modal" data-target="#add_holiday"><i class="fa fa-plus"></i>Size Chart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Page Header -->
+                </div>
+                <!-- /Page Content -->
+                
+               
+                <!-- Add Holiday Modal -->
+                <div class="modal custom-modal fade" id="add_holiday" role="dialog">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="image">
+                                <img src="sizing.jpg" class="img-fluid " >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Add Holiday Modal -->
+                
+
+                
+                
+          
+        
+        <!-- jQuery -->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        
+        <!-- Bootstrap Core JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        
+       
+        
+    </body>
+</html>
